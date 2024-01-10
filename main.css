@@ -34,18 +34,18 @@ header .container {
     bottom: -50%;
 }
 
-.avatar {
+#avatar {
     border-radius: 50%;
     margin-bottom: 24px;
     width: 180px;
     height: 180px;
 }
 
-.name {
+#name {
     font-size: 2em;
 }
 
-.username {
+#username {
     margin: 16px 0 32px;
     font-size: 1.1em;
 }

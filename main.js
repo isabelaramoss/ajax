@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
       usernameElement.innerText = json.login;
       followingElement.innerText = json.following;
       followersElement.innerText = json.followers;
-      repositoriesElement = json.public_repos;
+      repositoriesElement.innerHTML = json.public_repos;
       linkElement.href = json.html_url;
     })
 })
