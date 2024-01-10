@@ -20,5 +20,9 @@ document.addEventListener('DOMContentLoaded', function(){
       repositoriesElement.innerHTML = json.public_repos;
       linkElement.href = json.html_url;
     })
+    .catch(function(erro){
+      alert("Ocorreu um erro! Verifique usuário digitado e tente novamente.");
+      // console.error("Ocorreu um erro! Verifique usuário digitado e tente novamente.");
+    })
 })
 
