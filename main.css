@@ -50,7 +50,7 @@ header .container {
     font-size: 1.1em;
 }
 
-.link {
+#link {
     background-color: var(--header-color);
     color: var(--bg-color);
     padding: 8px 16px;

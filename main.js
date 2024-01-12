@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function(){
     })
     .catch(function(error){
       alert("Ocorreu um erro! Verifique usuário digitado e tente novamente.");
-      // console.error("Ocorreu um erro! Verifique usuário digitado e tente novamente.");
     })
 })
 
